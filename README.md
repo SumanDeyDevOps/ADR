@@ -1,6 +1,6 @@
 Architecture Decision Record (ADR)
 
-ADR-1: Database Selection for InfoTech Application
+Database Selection for InfoTech Application
 
 Context
 InfoTech Application is a web application designed to manage user-generated content, including text, images. The application must support high scalability, strong consistency, and efficient querying of relational data. The development team needs to choose a suitable database solution to meet these requirements.
@@ -27,8 +27,8 @@ Some Consequences:
 1. Developers must ensure proper indexing and query optimization to maintain performance at scale
 2. While MySQL supports horizontal scaling with read replicas, handling high write loads may require additional architectural decisions (e.g., sharding)
 
-Status
+Status:
 Accepted
 
-Date
+Date:
 5th March 2025
